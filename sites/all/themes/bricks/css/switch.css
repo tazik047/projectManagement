@@ -1,0 +1,181 @@
+/* Switcher styles */
+.bg_patterns_wrap {
+	display: none;
+	margin-bottom: 15px;
+}
+
+.button.secondary {
+  background-color: #E9E9E9 !important;
+}
+.button.secondary:hover {
+  background-color: #c3c3c3 !important;
+}
+
+.color_switch_wrap {
+	clear: both;
+	overflow: auto;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.switch_tile {
+  height: 18px;
+	width: 18px;
+	float: left;
+	margin: 5px;
+}
+
+.blue {
+	background: #2f88f0;
+}
+
+.black {
+	background: #000;
+}
+
+.teal {
+	background: #64ADB5;
+}
+
+.green {
+	background: #8fad30;
+}
+
+.orange {
+	background: #DB8916;
+}
+
+.purple {
+	background: #5f419b;
+}
+
+.red {
+	background: #c95d3b;
+}
+
+.yellow {
+	background: #dab800;
+}
+
+.shattered {
+	background-image: url('../images/heading-backgrounds/shattered.png');
+}
+
+.tile_bg {
+	background-image: url('../images/heading-backgrounds/tile.png');
+}
+
+.checkered {
+	background-image: url('../images/heading-backgrounds/checkered.png');
+	background: whitesmoke;
+}
+
+.gplay-bg {
+	background-image: url('../images/backgrounds/gplaypattern.png');
+}
+
+.bullseyes-bg {
+	background-image: url('../images/heading-backgrounds/bullseyes.png');
+}
+
+.gplay-head {
+	background-image: url('../images/heading-backgrounds/gplaypattern.png');
+}
+
+.cartographer-head {
+	background-image: url('../images/heading-backgrounds/cartographer.png');
+}
+
+.linen-bg {
+	background-image: url('../images/heading-backgrounds/linen.png');
+}
+
+.dark-wood-bg {
+	background-image: url('../images/heading-backgrounds/dark_wood.png');
+}
+
+.grey-bg {
+	background-image: url('../images/backgrounds/grey.png');
+}
+
+.wood-bg {
+	background-image: url('../images/backgrounds/retina_wood.png');
+}
+
+.grid-bg {
+	background-image: url('../images/backgrounds/noisy_grid.png');
+}
+
+.nistri-bg {
+	background-image: url('../images/backgrounds/nistri.png');
+}
+
+.cartographer-bg {
+	background-image: url('../images/backgrounds/cartographer.png');
+}
+
+.illusion-bg {
+	background-image: url('../images/backgrounds/illusion.png');
+}
+
+.bedge-bg {
+	background-image: url('../images/backgrounds/bedge.png');
+}
+
+#slideout {
+  background: #666;
+  position:fixed;
+  width:150px;
+  height:440px;
+  top:15%;
+  left: -150px;
+  z-index: 40000;
+  
+}
+
+#clickme {
+  height:40px;
+  width:40px;
+  background:#000;
+  margin-left:150px;
+  margin-top: 20px;
+  opacity: .8;
+}
+
+.switch_heading {
+  text-align: center; 
+  color: #fff;	
+  clear: both;
+}
+
+#slidecontent {
+  float:left;
+}
+
+#slidecontent h6 {
+	margin: 10px 0px 0px 0px;
+	font-size: 16px;
+}
+
+.bg-nav, #color-nav, #layout-nav, #heading-bg-nav {
+  list-style: none;
+  margin-left: 20px;
+  overflow: auto;
+}
+
+.bg-nav img, #color-nav img {
+  margin-top: 5px;
+  margin-bottom: 5px;	
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  
+}
+
+.bg-nav li, #color-nav li, #layout-nav li, #heading-bg-nav li {
+  margin-top: 5px; 
+  margin-bottom: 5px;
+  display: inline;
+  margin-right: 8px;
+}

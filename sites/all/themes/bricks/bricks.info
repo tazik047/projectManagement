@@ -1,0 +1,142 @@
+name = Bricks
+description = A sub-theme of Blocks. 
+core = 7.x
+engine = phptemplate
+
+base theme = blocks
+
+; This is where you can add all of your custom CSS.
+stylesheets[all][] = /css/custom.css
+
+; Everything below this line is from the parent theme.info file.
+stylesheets[all][] = /css/sliders/animate.css
+stylesheets[all][] = /css/sliders/jquery.onebyone.css
+stylesheets[all][] = /css/sliders/slider.css
+stylesheets[all][] = /css/ie.css
+stylesheets[all][] = /foundation/stylesheets/social_foundicons.css
+stylesheets[all][] = /foundation/stylesheets/general_foundicons.css
+scripts[] = js/jquery.js
+scripts[] = foundation/javascripts/foundation.min.js
+scripts[] = foundation/javascripts/app.js
+scripts[] = js/jquery.isotope.js
+scripts[] = js/jquery.touchSwipe.js
+scripts[] = js/jquery.onebyone.min.js
+scripts[] = js/jquery.touchwipe.min.js
+scripts[] = js/jquery.tweet.js
+scripts[] = js/slimbox2.js
+scripts[] = js/jquery.carouFredSel-6.1.0.js
+scripts[] = js/mobile-map.js
+scripts[] = js/jquery.ui.totop.js
+scripts[] = js/easing.js
+scripts[] = js/blocks.js
+
+scripts[] = js/style_switch.js
+
+regions[content]        = Content
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+
+regions[header_login] 	= Header Login
+regions[header_contact] = Header Contact
+
+regions[services]      = Front Page Services
+
+regions[front_blog]     = Front Page Blog
+
+regions[recent_projects] = Recent Projects
+
+regions[footer_1]       = Footer Box 1
+regions[footer_2]       = Footer Box 2
+regions[footer_3]       = Footer Box 3
+regions[footer_4]       = Footer Box 4
+regions[footer_full]    = Footer Full Width
+
+regions[modal_markup] = Front Page Modal Markup
+
+settings[breadcrumbs] = '1'
+
+settings[branding_type] = 'text'
+
+settings[twitter_url] = 'http://twitter.com'
+settings[facebook_url] = 'http://facebook.com'
+settings[google_plus_url] = 'http://plus.google.com'
+settings[pinterest_url] = 'http://pinterest.com'
+settings[linkedin_url] = 'http://linkedin.com'
+settings[flickr_url] = 'http://flickr.com'
+settings[youtube_url] = 'http://youtube.com'
+
+settings[enable_highlight] = '1'
+settings[highlight_text] = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+
+settings[enable_slider] = '1'
+
+settings[slide1_img1] = '/sites/all/themes/blocks-drupal/images/slider/drupal.png'
+settings[slide1_img2] = '/sites/all/themes/blocks-drupal/images/slider/html5.png'
+settings[slide1_img3] = '/sites/all/themes/blocks-drupal/images/slider/css3.png'
+settings[slide1_txt1] = 'Built on Drupal 7'
+settings[slide1_txt2] = 'Powered by ZURB Foundation 3'
+
+settings[slide2_txt1] = 'Responsive Design'
+settings[slide2_txt2] = 'Touch-Ready Elements'
+settings[slide2_img1] = '/sites/all/themes/blocks-drupal/images/slider/blocks-imac.png'
+settings[slide2_img2] = '/sites/all/themes/blocks-drupal/images/slider/blocks-iphone.png'
+settings[slide2_img3] = '/sites/all/themes/blocks-drupal/images/slider/blocks-ipad.png'
+
+settings[slide3_img1] = '/sites/all/themes/blocks-drupal/images/slider/skyline.jpg'
+settings[slide3_txt1] = 'Hover to pause'
+settings[slide3_txt2] = 'This slider supports full images'
+settings[slide3_txt3] = 'Set up your slider with theme settings. <a href="#">Learn more</a>'
+
+settings[enable_services] = '1'
+settings[services_title] = 'Who We Are'
+
+settings[enable_highlight] = '1'
+settings[highlight_text] = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+
+settings[enable_recent_posts] = '0'
+settings[recent_posts_title] = 'Recent Posts'
+
+settings[enable_recent_projects] = '0'
+settings[recent_projects_title] = 'Recent Projects'
+
+settings[color_scheme] = 'blue'
+
+settings[body_background] ='#ECECEC'
+settings[enable_background_pattern] = '0'
+settings[background_select] = 'gplaypattern'
+
+settings[heading_background] ='#ECECEC'
+settings[enable_heading_pattern] = '1'
+settings[heading_background_select] = 'shattered'
+
+settings[enable_boxed_layout] = '0'
+
+settings[page_layout] = 'full_width'
+
+settings[blog_layout] = 'sidebar_right'
+
+settings[portfolio_columns] = 'three'
+
+settings['font_family'] = 'Open Sans, serif'
+
+settings[h1] = '36px'
+settings[h2] = '30px'
+settings[h3] = '24px'
+settings[h4] = '18px'
+settings[h5] = '14px'
+settings[h6] = '12px'
+
+settings[enable_primary_footer] = '1'
+
+settings[twitter_icon] = '1'
+settings[facebook_icon] = '1'
+settings[rss_icon] = '1'
+settings[google_plus_icon] = '1'
+settings[pinterest_icon] = '0'
+settings[linkedin_icon] = '0'
+settings[flickr_icon] = '0'
+settings[youtube_icon] = '0'
+settings[vimeo_icon] = '0'
+
+settings[enable_secondary_footer] = '1'
+settings[secondary_footer_text] = 'Design by <a href="http://refaktorthemes.com" target="_blank">Refaktor</a>'

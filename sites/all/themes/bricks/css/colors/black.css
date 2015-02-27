@@ -1,0 +1,71 @@
+/* Body and Content */
+a {
+  color: #000;
+}
+
+#footer a {
+	 color: #616161;
+}
+
+#footer a:hover {
+	 color: #979595;
+}
+
+a:hover {
+  color: #616161;
+  text-decoration: none;
+}
+
+thead {
+  background-color: #000 !important; 
+}
+
+.header_icons li i:hover {
+	color: #616161;
+}
+
+#main_title_text {
+  color: #000; 
+}  
+
+#main_title_text:hover {
+  color: #616161; 
+}
+
+.footer_icons li i:hover {
+	color: #616161;
+}
+
+.post_share li i:hover {
+	color: #616161;
+}
+
+.carousel_item_hover i:hover {
+	color: #616161;
+}
+
+.team_image_hover i:hover {
+  color: #616161 !important;
+}
+
+.button {
+	background: #000 !important;
+}
+
+.button:hover{
+	background: #616161 !important;
+}
+
+/* Widgets */
+.ad_block a:hover, .tabs a.active {
+  background: #616161;
+}
+
+.view-popular-tags a:hover {
+  background-color: #616161; 
+}
+
+/*Highlight*/
+#highlight {
+  background: #000; 
+}
