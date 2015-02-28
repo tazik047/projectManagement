@@ -1,0 +1,6 @@
+name = Main Module
+description = Work with all site
+package = "Nodes"
+core = 7.x
+version = "7.x-1.0"
+files[]= mainModule.module

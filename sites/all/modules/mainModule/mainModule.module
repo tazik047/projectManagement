@@ -1,0 +1,51 @@
+<?php
+/**
+ * Implements hook_form_BASE_FORM_ID_alter(): node_form.
+ */
+/*function home_work_form_node_form_alter(&$form, &$form_state, $form_id) {
+	switch ($form_id) {
+		case 'homework_node_form':
+			array_unshift($form['#submit'], 'homework_submit');
+			$form['title']['#default_value'] = 'title';
+			if($form['nid']['#value']){
+				$date = new DateTime($form['#node']->field_date['und'][0]['value']);
+				$form['field_date']['und'][0]['#default_value']['value2'] =  $date->modify('+3 years')->format('Y-m-d H:i:s');
+			}
+			$form['#after_build'][] = 'add_css_to_form';
+		break;
+		case 'user_register_form':
+          $form['#submit'][] = 'redirect_after_regisration_user_register_submit';
+      break;
+	}
+}
+
+function add_css_to_form($form, &$form_state) {
+	drupal_add_css(drupal_get_path('module', 'home_work') . "/css/form_edit.css");
+	drupal_add_js(drupal_get_path('module', 'home_work') . "/js/check.js");
+  	return $form;
+}
+
+function homework_submit(&$form, &$form_state)
+{
+	$subject = taxonomy_term_load($form_state['values']['field_subject']['und'][0]['tid']);
+	$lesson = taxonomy_term_load($form_state['values']['field_lesson']['und'][0]['tid']);
+	$date = new DateTime($form_state['values']['field_date']['und'][0]['value']);
+	$start = new DateTime($lesson->field_time['und'][0]['value']);
+	$end = new DateTime($lesson->field_time['und'][0]['value2']); 
+	
+	$form1 = 'd.m.Y'; //01.01.2015
+	$hour = 'H';
+	$minute = 'i';
+	$mainForm = 'Y-m-d H:i:s';
+	
+	$form_state['values']['title'] = t('ДЗ - ').$subject->name.t(' за ').$date->format($form1);
+	$form_state['values']['field_date']['und'][0]['value']= $date->setTime((int)$start->format($hour),
+															(int)$start->format($minute))->format($mainForm);
+	$form_state['values']['field_date']['und'][0]['value2']= $date->setTime((int)$end->format($hour),
+															(int)$end->format($minute))->format($mainForm);
+}
+
+function redirect_after_regisration_user_register_submit($form, &$form_state) {
+  $form_state['redirect'] = 'node/2';
+}*/
+
